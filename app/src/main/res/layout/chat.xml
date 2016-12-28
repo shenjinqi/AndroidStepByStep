@@ -16,6 +16,11 @@
 		android:text="http://www.cnblogs.com/xiaofeixiang"
 		android:textSize="15sp"
       />
+	<ListView
+		android:id="@+id/chat_list_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	</ListView>
     
 
 </LinearLayout>

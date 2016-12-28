@@ -7,8 +7,13 @@
     <TextView 
         android:layout_height="wrap_content"
 		android:layout_width="wrap_content"
-		android:text="通讯录"
+		android:text="通讯群组"
 		android:textSize="20sp"
       />
 
+	<ListView
+		android:id="@+id/group_list_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	</ListView>
 </LinearLayout>

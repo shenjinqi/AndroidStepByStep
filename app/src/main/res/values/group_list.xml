@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="通号通信信息集团">
+        <item>无线技术分公司</item>
+        <item>多媒体调度项目组</item>
+        <item>LTE-R项目组</item>
+        <item>党支部</item>
+        <item>工会</item>
+        <item>羽毛球兴趣组</item>
+        <item>篮球兴趣组</item>
+        <item>软件组</item>
+        <item>硬件组</item>
+        <item>协议组</item>
+    </string-array>
+</resources>
