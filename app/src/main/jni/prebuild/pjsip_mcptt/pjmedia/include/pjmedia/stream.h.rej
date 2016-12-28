@@ -1,0 +1,18 @@
+--- pjmedia/include/pjmedia/stream.h
++++ pjmedia/include/pjmedia/stream.h
+@@ -189,14 +189,12 @@
+  *
+  * @return		PJ_SUCCESS on success.
+  */
+-typedef void (*rtcp_cb)(void *usr_data, void *pkt, pj_size_t);
+ PJ_DECL(pj_status_t) pjmedia_stream_create(pjmedia_endpt *endpt,
+ 					   pj_pool_t *pool,
+ 					   const pjmedia_stream_info *info,
+ 					   pjmedia_transport *tp,
+ 					   void *user_data,
+-                       pjmedia_stream **p_stream,
+-                       int a = 3);
++					   pjmedia_stream **p_stream);
+ 
+ /**
+  * Destroy the media stream.
