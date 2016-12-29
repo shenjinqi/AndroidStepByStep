@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+	android:weightSum="1">
     
     <TextView 
         android:layout_height="wrap_content"
@@ -10,5 +11,14 @@
 		android:text="发现"
 		android:textSize="20sp"
       />
+
+	<Button
+		android:layout_width="146dp"
+		android:layout_height="wrap_content"
+		android:text="Popup Window"
+		android:id="@+id/buttonPopup"
+		android:layout_gravity="center_horizontal"
+		android:layout_weight="0.09"
+		android:singleLine="true" />
 
 </LinearLayout>
